@@ -293,56 +293,41 @@ T 34100 68100 5 10 0 0 0 0 1
 device=DRC_Directive
 }
 C 29100 65900 0 0 0 title-bordered-A3.sym
-C 31200 74500 1 0 0 terminal-1.sym
-{
-T 31510 75250 5 10 0 0 0 0 1
-device=terminal
-T 31510 75100 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
-T 31450 74550 5 10 1 1 0 6 1
-refdes=PWR
-}
-C 31200 72400 1 0 0 terminal-1.sym
-{
-T 31510 73150 5 10 0 0 0 0 1
-device=terminal
-T 31510 73000 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
-T 31450 72450 5 10 1 1 0 6 1
-refdes=VCC
-}
-C 31200 70600 1 0 0 terminal-1.sym
-{
-T 31510 71350 5 10 0 0 0 0 1
-device=terminal
-T 31510 71200 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
-T 31450 70650 5 10 1 1 0 6 1
-refdes=SHDN
-}
 N 32600 72200 32600 72500 4
 N 32100 70700 34200 70700 4
 N 34200 70700 34200 71700 4
 N 34200 71700 34400 71700 4
-C 44200 73000 1 180 0 terminal-1.sym
+N 42800 74400 42800 72500 4
+N 42800 70100 42800 72200 4
+C 30400 70200 1 0 0 connector2-1.sym
 {
-T 43890 72250 5 10 0 0 180 0 1
-device=terminal
-T 43890 72400 5 10 0 0 180 0 1
-footprint=CONNECTOR 1 1
-T 43950 72950 5 10 1 1 180 6 1
-refdes=VOUT
+T 30600 71200 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 30400 71000 5 10 1 1 0 0 1
+refdes=CONN2
+T 30400 70200 5 10 0 1 0 0 1
+footprint=connector(2, 1, spacing=200.00mil, silkmark=external, pin_ringdia=150.00mil, pin_drill=60.00mil)
 }
-C 44200 72400 1 180 0 terminal-1.sym
+C 30400 74100 1 0 0 connector2-1.sym
 {
-T 43890 71650 5 10 0 0 180 0 1
-device=terminal
-T 43890 71800 5 10 0 0 180 0 1
-footprint=CONNECTOR 1 1
-T 43950 72350 5 10 1 1 180 6 1
-refdes=GND
+T 30600 75100 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 30400 74900 5 10 1 1 0 0 1
+refdes=CONN1
+T 30400 74100 5 10 0 1 0 0 1
+footprint=connector(2, 1, spacing=200.00mil, silkmark=external, pin_ringdia=150.00mil, pin_drill=60.00mil)
 }
-N 42800 74400 42800 72900 4
-N 42800 72900 43300 72900 4
-N 43300 72300 42800 72300 4
-N 42800 70100 42800 72300 4
+C 44900 72000 1 0 1 connector2-1.sym
+{
+T 44700 73000 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 44900 72800 5 10 1 1 0 6 1
+refdes=CONN3
+T 44900 72000 5 10 0 1 0 0 1
+footprint=connector(2, 1, spacing=200.00mil, silkmark=external, pin_ringdia=150.00mil, pin_drill=60.00mil)
+}
+N 32100 74300 32100 72500 4
+N 32600 70100 32100 70100 4
+N 32100 70100 32100 70400 4
+N 42800 72500 43200 72500 4
+N 42800 72200 43200 72200 4
